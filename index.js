@@ -127,3 +127,5 @@ console.log(`
 +--------------+
 `);
 });
+
+client.login(process.env.TOKEN);
