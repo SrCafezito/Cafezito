@@ -26,7 +26,7 @@ module.exports = {
         inline: true,
       },
     ])
-        .addField("[ Utilidades ]",'`avatar`,`invite`,`say`,`sugest`,`clima`')
+        .addField("[ Utilidades ]",'`avatar`,`invite`,`say`,`suggest`,`clima`')
         .setThumbnail('https://imgur.com/AD2TPv5.jpeg')
         .setTimestamp()
 
