@@ -102,16 +102,42 @@ client.on('message', message => {
 	}
 });
 
+client.on('message', message => {
+	if (message.author.bot) return;
+	if (message.channel.type == 'dm') return;
+	if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase()))
+		return;
+	if (
+		message.content.startsWith(`<@!${client.user.id}>`) ||
+		message.content.startsWith(`<@${client.user.id}>`)
+	)
+		return;
+
+	const args = message.content
+		.trim()
+		.slice(config.prefix.length)
+		.split(/ +/g);
+	const command = args.shift().toLowerCase();
+
+	try {
+		const commandFile = require(`./commands/ℹ️ Info/${command}.js`);
+		commandFile.run(client, message, args);
+	} catch (err) {
+		console.error('Erro:' + err);
+	}
+});
+
 client.on("ready", () => {
   let activities = [
-    `O meu prefixo é c!`,
-    `Utilize c!help`,
-    `❤️ Assistindo animes românticos`,
-    `🎙️ Ouvindo podcast`,
-    `Jogando 🎮 Minecraft`,
-    `Meu personagem favorito é o 🕵️‍♂️ Sherlock Holmes`,
-    `Eu tenho um 😍 crush!`,
-    `${client.users.cache.size} usuários`
+    `Meu prefixo é c!`,
+    `Use c!help`,
+    `😀+😍=😚`,
+    `Entre em nosso servidor!`,
+    `Tomando cafezinho`,
+    `Lendo uns livros`,
+    `Alguem concorda que a Netflix é debochada?`,
+    `Tenho apenas 14 anos`,
+    `Ajudando ${client.users.cache.size} usuários!`
     ],
     i = 0;
   setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
@@ -128,4 +154,4 @@ console.log(`
 `);
 });
 
-client.login(process.env.TOKEN);
+client.login('');

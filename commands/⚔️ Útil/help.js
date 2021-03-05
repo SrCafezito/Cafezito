@@ -26,7 +26,7 @@ module.exports = {
         inline: true,
       },
     ])
-        .addField("[ Utilidades ]",'`avatar`,`invite`,`say`,`suggest`,`clima`')
+        .addField("[ Utilidades ]",'`avatar`,`invite`,`say`,`sugest`,`clima`,`calcular`')
         .setThumbnail('https://imgur.com/AD2TPv5.jpeg')
         .setTimestamp()
 
@@ -70,7 +70,7 @@ module.exports = {
         inline: true,
       },
     ])
-        .addField("[ Informações ]",'`ping`,`botinfo`,`serverinfo`')
+        .addField("[ Informações ]",'`ping`,`botinfo`,`serverinfo`,')
         .setThumbnail('https://imgur.com/AD2TPv5.jpeg')
         .setTimestamp()
 
