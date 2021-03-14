@@ -130,7 +130,7 @@ client.on('message', message => {
 client.on("ready", () => {
   let activities = [
     `Meu prefixo é c!`,
-	`Criador: Crunkz`
+	`Criador: Crunkz`,
     `Ajudando ${client.users.cache.size} usuários!`
     ],
     i = 0;
