@@ -130,13 +130,7 @@ client.on('message', message => {
 client.on("ready", () => {
   let activities = [
     `Meu prefixo é c!`,
-    `Use c!help`,
-    `😀+😍=😚`,
-    `Entre em nosso servidor!`,
-    `Tomando cafezinho`,
-    `Lendo uns livros`,
-    `Alguem concorda que a Netflix é debochada?`,
-    `Tenho apenas 14 anos`,
+	`Criador: Crunkz`
     `Ajudando ${client.users.cache.size} usuários!`
     ],
     i = 0;
@@ -154,4 +148,4 @@ console.log(`
 `);
 });
 
-client.login('');
+client.login('SEU TOKEN');
