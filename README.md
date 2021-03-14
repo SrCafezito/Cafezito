@@ -1,4 +1,4 @@
-<h1 align="center"> 🧙‍ Cafezito 🧙‍ </h1>
+<h1 align="center"> 🍒 Cafezito 🍒 </h1>
 
 Todos os servidores Discord têm os mesmos problemas! Os membros querem entretenimento... Os moderadores querem automação... E você só quer descansar.  
 Sua vida é muito preciosa para gastar seu tempo com coisas inúteis, deixe-me cuidar das partes chatas enquanto você se diverte no seu servidor. O Cafezito conta com diversos comandos para entreter e envolver seus membros além de recursos de moderação para manter seu servidor sempre seguro e agradável!
