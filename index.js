@@ -131,7 +131,8 @@ client.on("ready", () => {
   let activities = [
     `Meu prefixo é c!`,
 	`Criador: Crunkz`,
-    `Ajudando ${client.users.cache.size} usuários!`
+    `Ajudando ${client.users.cache.size} usuários!`,
+	`Entre em nosso servidor do discord!`
     ],
     i = 0;
   setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
