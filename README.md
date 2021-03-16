@@ -28,6 +28,6 @@ Você também pode hospedar Cafezito sozinho, no entanto, não daremos suporte p
 `6.` Para evitar problemas e confusões, não permitimos o uso do nome "Cafezito" ou qualquer nome semelhante em suas versões auto-hospedadas. Chame de "Rafty" se você não for criativo o suficiente para criar seu próprio nome para dar à sua versão auto-hospedada.
 
 
-# ☕ Agradecimentos especiais para...
-@SrCafezito, @Huskaitf e @MateusBertanBR
+# ☕ Atenciosamente:
+@SrCafezito
 
