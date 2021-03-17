@@ -1,4 +1,4 @@
-<h1 align="center"> 🍒 Cafezito 🍒 </h1>
+<h1 align="center">🍒 Cafezito 🍒</h1>
 
 Todos os servidores Discord têm os mesmos problemas! Os membros querem entretenimento... Os moderadores querem automação... E você só quer descansar.  
 Sua vida é muito preciosa para gastar seu tempo com coisas inúteis, deixe-me cuidar das partes chatas enquanto você se diverte no seu servidor. O Cafezito conta com diversos comandos para entreter e envolver seus membros além de recursos de moderação para manter seu servidor sempre seguro e agradável!
@@ -28,6 +28,9 @@ Você também pode hospedar Cafezito sozinho, no entanto, não daremos suporte p
 `6.` Para evitar problemas e confusões, não permitimos o uso do nome "Cafezito" ou qualquer nome semelhante em suas versões auto-hospedadas. Chame de "Rafty" se você não for criativo o suficiente para criar seu próprio nome para dar à sua versão auto-hospedada.
 
 
-# ☕ Agradecimentos especiais para...
+<<<<<<< HEAD
+=======
+# ☕ Atenciosamente:
+>>>>>>> f5fef4385333a0f6b76fd995ec045ca4b582803b
 `@SrCafezito`
 
