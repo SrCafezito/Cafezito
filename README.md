@@ -29,5 +29,5 @@ Você também pode hospedar Cafezito sozinho, no entanto, não daremos suporte p
 
 
 # ☕ Agradecimentos especiais para...
-@SrCafezito, @Huskaitf e @MateusBertanBR
+`@SrCafezito`
 
