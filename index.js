@@ -28,6 +28,18 @@ const client = new Client({
   restTimeOffset: 0
 });
 
+// Menção bo //
+client.on("message", message => {
+  if (message.author.bot) return false;
+
+  if (message.content.includes("@here") || message.content.includes("@everyone")) return false;
+
+  if (message.mentions.has(client.user.id)) {
+      message.channel.send("Olá, Meu prefixo neste servidor é ``c!``, para ver o que eu posso fazer, use c!ajuda!");
+  };
+});
+
+
 // Importação com token, prefixo e etc. //
 client.login(TOKEN);
 client.commands = new Collection();
