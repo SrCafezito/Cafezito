@@ -70,7 +70,7 @@ module.exports = {
         inline: true,
       },
     ])
-        .addField("[ Informações ]",'`ping`,`botinfo`,`serverinfo`,`help`,`uptime`')
+        .addField("[ Informações ]",'`ping`,`infobot`,`serverinfo`,`help`,`uptime`')
         .setThumbnail('https://imgur.com/AD2TPv5.jpeg')
         .setTimestamp()
 
