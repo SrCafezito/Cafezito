@@ -4,7 +4,7 @@ Todos os servidores Discord têm os mesmos problemas! Os membros querem entreten
 Sua vida é muito preciosa para gastar seu tempo com coisas inúteis, deixe-me cuidar das partes chatas enquanto você se diverte no seu servidor. O Cafezito conta com diversos comandos para entreter e envolver seus membros além de recursos de moderação para manter seu servidor sempre seguro e agradável!
 
 ## 🤔 Como posso adicioná-lo?
-Se você deseja usar Nasko em seu servidor, você pode adicionar [clicando aqui](https://discord.com/oauth2/authorize?client_id=774642355680444437&scope=bot&permissions=8).
+Se você deseja usar o Cafezito em seu servidor, você pode adicionar [clicando aqui](https://discord.com/oauth2/authorize?client_id=774642355680444437&scope=bot&permissions=8).
 
 Você também pode hospedar Cafezito sozinho, no entanto, não daremos suporte para pessoas que estão tentando auto-hospedar ele, não queremos gastar horas tentando solucionar problemas de outras pessoas que só acontecem em instâncias de auto-hospedagem, então você deve pelo menos saber como solucionar problemas, se você encontrar algum.
 
